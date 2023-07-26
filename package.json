@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "better-sqlite3": "^8.5.0",
-    "knex": "^2.5.1"
+    "knex": "^2.5.1",
+    "papaparse": "^5.4.1"
   }
 }
