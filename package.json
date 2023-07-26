@@ -1,0 +1,38 @@
+{
+  "name": "nbi-data-analysis",
+  "version": "0.1.0",
+  "description": "",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "sql",
+    "nbi"
+  ],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travishorn/nbi-data-analysis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travishorn/nbi-data-analysis/issues"
+  },
+  "homepage": "https://github.com/travishorn/nbi-data-analysis#readme",
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.5.0",
+    "knex": "^2.5.1"
+  }
+}
