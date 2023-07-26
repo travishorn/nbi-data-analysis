@@ -1,4 +1,48 @@
-# NBI Data Analysis
+# Exploratory Data within the National Bridge Inventory (NBI)
+
+## Objective
+
+The scripts and instructions in this project set up a highly-optimized SQL
+database for exploring a large dataset of bridge inspections in the U.S. state
+of Georgia. Sample SQL queries are provided which perform various data
+manipulations including filtering, sorting, grouping, aggregations, and joining
+multiple tables to gather interesting insights from the data.
+
+## Dataset
+
+The National Bridge Inventory (NBI) data from 1990 to 2022 for various bridges
+in the state of Georgia, USA retrieved from
+https://www.kaggle.com/datasets/cynthiamengyuanli/nbi-data-1990-2022
+
+## Timeline
+1. Data Exploration: I began by performing an initial exploration of the
+   dataset. I identified the various tables and entities present and worked to
+   understand the relationships between them. I familiarize myself with the
+   data's structure, data types, and any potential data quality issues.
+2. Data Cleaning and Preparation: I wrote code to preprocess the data in a
+   reproducible manner, so the data could be refreshed at any time. At this
+   stage, I handled missing values, duplicate records, and any inconsistencies.
+   This step was crucial as it set the foundation for accurate analysis.
+3. Database Design: I create an appropriate database schema to store the data
+   efficiently. I designed tables that reflect the relationships between
+   different entities in the dataset. I gave consideration for indexing and
+   optimizing the schema for the types of queries users might want to perform.
+4. Documentation: Along the way, I wrote comments in the code and kept notes for
+   myself. Once the project was working, I got to work writing clear
+   documentation, explaining the dataset, the database schema, the SQL queries
+   I’ve written, and the insights I’ve gained.
+
+### To Do
+
+5. Data Manipulation: I will write SQL queries to perform various data
+   manipulations including filtering, sorting, grouping, aggregations, and
+   joining multiple tables to gather valuable insights from the data.
+6. Insights: Using those queries, I will derive meaningful insights from the
+   data. I will try to explore the dataset from different angles to extract
+   valuable information that could be relevant to real-world problems.
+7. Performance Optimization: I will optimize query performance where possible.
+   Using indexes and tweaks to the queries themselves, I will improve the speed
+   and efficiency of certain queries.
 
 ## Prerequisites
 
@@ -50,7 +94,7 @@ Place the file in the `source-data` directory.
 
 Load the data from the source file
 
-```
+```sh
 node src/load-data.js
 ```
 
