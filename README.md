@@ -16,9 +16,8 @@ https://www.kaggle.com/datasets/cynthiamengyuanli/nbi-data-1990-2022
 
 ## Insights
 
-Go to [Insights](insights.md) to see some of the SQL queries I wrote which can
-provide insights into this data that could be relevant to real-world
-applications.
+Go to [INSIGHTS](insights.md) - a collection of SQL queries I wrote which can provide insights into this data
+that could be relevant to real-world applications.
 
 ## Methods Applied
 
