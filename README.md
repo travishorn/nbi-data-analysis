@@ -14,7 +14,14 @@ The National Bridge Inventory (NBI) data from 1990 to 2022 for various bridges
 in the state of Georgia, USA retrieved from
 https://www.kaggle.com/datasets/cynthiamengyuanli/nbi-data-1990-2022
 
-## Timeline
+## Insights
+
+Go to [Insights](insights.md) to see some of the SQL queries I wrote which can
+provide insights into this data that could be relevant to real-world
+applications.
+
+## Methods Applied
+
 1. Data Exploration: I began by performing an initial exploration of the
    dataset. I identified the various tables and entities present and worked to
    understand the relationships between them. I familiarize myself with the
@@ -31,18 +38,15 @@ https://www.kaggle.com/datasets/cynthiamengyuanli/nbi-data-1990-2022
    myself. Once the project was working, I got to work writing clear
    documentation, explaining the dataset, the database schema, the SQL queries
    I’ve written, and the insights I’ve gained.
-
-### To Do
-
-5. Data Manipulation: I will write SQL queries to perform various data
+5. Data Manipulation: I wrote write SQL queries to perform various data
    manipulations including filtering, sorting, grouping, aggregations, and
    joining multiple tables to gather valuable insights from the data.
-6. Insights: Using those queries, I will derive meaningful insights from the
-   data. I will try to explore the dataset from different angles to extract
-   valuable information that could be relevant to real-world problems.
-7. Performance Optimization: I will optimize query performance where possible.
-   Using indexes and tweaks to the queries themselves, I will improve the speed
-   and efficiency of certain queries.
+6. Insights: Using those queries, I derived meaningful insights from the data. I
+   tried to explore the dataset from different angles to extract valuable
+   information that could be relevant to real-world problems.
+7. Performance Optimization: I optimized query performance where possible. Using
+   indexes and tweaks to the queries themselves, I improved the speed and
+   efficiency of certain queries.
 
 ## Prerequisites
 
